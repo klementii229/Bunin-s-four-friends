@@ -1,1 +1,3 @@
-back/cmake-buid-debug
+back/cmake-buid-debug/
+back/lib/boost_1_85_0/
+back/.idea/
