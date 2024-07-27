@@ -14,6 +14,21 @@
 # EXTERNAL cache entries
 ########################
 
+//Path to a file.
+ASIO_INCLUDE_DIR:PATH=ASIO_INCLUDE_DIR-NOTFOUND
+
+//The directory containing a CMake configuration file for Boost.
+Boost_DIR:PATH=Boost_DIR-NOTFOUND
+
+//Path to a file.
+Boost_INCLUDE_DIR:PATH=C:/Users/dimak/Desktop/pluss/project/back/lib/boost_1_85_0
+
+//Boost system library (debug)
+Boost_SYSTEM_LIBRARY_DEBUG:FILEPATH=Boost_SYSTEM_LIBRARY_DEBUG-NOTFOUND
+
+//Boost system library (release)
+Boost_SYSTEM_LIBRARY_RELEASE:FILEPATH=Boost_SYSTEM_LIBRARY_RELEASE-NOTFOUND
+
 //Path to a program.
 CMAKE_ADDR2LINE:FILEPATH=C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/addr2line.exe
 
@@ -119,7 +134,7 @@ CMAKE_INSTALL_PREFIX:PATH=C:/Program Files (x86)/back
 CMAKE_LINKER:FILEPATH=C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/ld.exe
 
 //make program
-CMAKE_MAKE_PROGRAM:FILEPATH=C:/Program Files/JetBrains/CLion 2024.1.4/bin/ninja/win/x64/ninja.exe
+CMAKE_MAKE_PROGRAM:FILEPATH=C:/PROGRA~1/JETBRA~1/CLion 2024.1.4/bin/ninja/win/x64/ninja.exe
 
 //Flags used by the linker during the creation of modules during
 // all build types.
@@ -158,6 +173,21 @@ CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
 CMAKE_PROJECT_NAME:STATIC=back
+
+//Value Computed by CMake
+CMAKE_PROJECT_VERSION:STATIC=6.0.0
+
+//Value Computed by CMake
+CMAKE_PROJECT_VERSION_MAJOR:STATIC=6
+
+//Value Computed by CMake
+CMAKE_PROJECT_VERSION_MINOR:STATIC=0
+
+//Value Computed by CMake
+CMAKE_PROJECT_VERSION_PATCH:STATIC=0
+
+//Value Computed by CMake
+CMAKE_PROJECT_VERSION_TWEAK:STATIC=
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/ranlib.exe
@@ -242,6 +272,89 @@ CMAKE_TAPI:FILEPATH=CMAKE_TAPI-NOTFOUND
 // Studio IDE projects all commands are done without /nologo.
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
+//Combine all headers into one
+CROW_AMALGAMATE:BOOL=OFF
+
+//Build the examples in the project
+CROW_BUILD_EXAMPLES:BOOL=OFF
+
+//Instrument and build Crow fuzzer
+CROW_BUILD_FUZZER:BOOL=OFF
+
+//Build the tests in the project
+CROW_BUILD_TESTS:BOOL=OFF
+
+//Enable Crow's Compression feature for supporting compressed http
+// content
+CROW_ENABLE_COMPRESSION:BOOL=OFF
+
+//Enable Crow's SSL feature for supporting https
+CROW_ENABLE_SSL:BOOL=OFF
+
+//Add install step for Crow
+CROW_INSTALL:BOOL=ON
+
+//Use Boost.Asio for Crow
+CROW_USE_BOOST:BOOL=OFF
+
+//Value Computed by CMake
+Crow_BINARY_DIR:STATIC=C:/Users/dimak/Desktop/pluss/project/back/cmake-build-debug/lib/Crow-master/build
+
+//The directory containing a CMake configuration file for Crow.
+Crow_DIR:PATH=Crow_DIR-NOTFOUND
+
+//Value Computed by CMake
+Crow_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+Crow_SOURCE_DIR:STATIC=C:/Users/dimak/Desktop/pluss/project/back/lib/Crow-master
+
+//Build the benchmarks
+QUILL_BUILD_BENCHMARKS:BOOL=OFF
+
+//Build the examples
+QUILL_BUILD_EXAMPLES:BOOL=OFF
+
+//Build the tests (Requires https://github.com/google/googletest
+// to be installed)
+QUILL_BUILD_TESTS:BOOL=OFF
+
+//Enable code coverage
+QUILL_CODE_COVERAGE:BOOL=OFF
+
+//Disable non-prefixed macros
+QUILL_DISABLE_NON_PREFIXED_MACROS:BOOL=OFF
+
+//Generate documentation
+QUILL_DOCS_GEN:BOOL=OFF
+
+//Enable CMake Install when Quill is not a master project
+QUILL_ENABLE_INSTALL:BOOL=OFF
+
+//Master Project
+QUILL_MASTER_PROJECT:BOOL=FALSE
+
+//Build without exceptions
+QUILL_NO_EXCEPTIONS:BOOL=OFF
+
+//Disable features not supported on Windows Server 2012/2016
+QUILL_NO_THREAD_NAME_SUPPORT:BOOL=OFF
+
+//Enable address sanitizer in tests
+QUILL_SANITIZE_ADDRESS:BOOL=OFF
+
+//Enable thread sanitizer in tests (Using this option with any
+// other compiler except clang may result to false positives)
+QUILL_SANITIZE_THREAD:BOOL=OFF
+
+//Use valgrind as the default memcheck tool in CTest (Requires
+// Valgrind)
+QUILL_USE_VALGRIND:BOOL=OFF
+
+//Enable optimizations for cache coherence on x86 architectures
+// using specific CPU instructions
+QUILL_X86ARCH:BOOL=OFF
+
 //Value Computed by CMake
 back_BINARY_DIR:STATIC=C:/Users/dimak/Desktop/pluss/project/back/cmake-build-debug
 
@@ -251,11 +364,30 @@ back_IS_TOP_LEVEL:STATIC=ON
 //Value Computed by CMake
 back_SOURCE_DIR:STATIC=C:/Users/dimak/Desktop/pluss/project/back
 
+//Value Computed by CMake
+quill_BINARY_DIR:STATIC=C:/Users/dimak/Desktop/pluss/project/back/cmake-build-debug/quill
+
+//Value Computed by CMake
+quill_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+quill_SOURCE_DIR:STATIC=C:/Users/dimak/Desktop/pluss/project/back/quill
+
 
 ########################
 # INTERNAL cache entries
 ########################
 
+//ADVANCED property for variable: ASIO_INCLUDE_DIR
+ASIO_INCLUDE_DIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: Boost_DIR
+Boost_DIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: Boost_INCLUDE_DIR
+Boost_INCLUDE_DIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: Boost_SYSTEM_LIBRARY_DEBUG
+Boost_SYSTEM_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: Boost_SYSTEM_LIBRARY_RELEASE
+Boost_SYSTEM_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_ADDR2LINE
 CMAKE_ADDR2LINE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_AR
@@ -336,6 +468,8 @@ CMAKE_GENERATOR_INSTANCE:INTERNAL=
 CMAKE_GENERATOR_PLATFORM:INTERNAL=
 //Name of generator toolset.
 CMAKE_GENERATOR_TOOLSET:INTERNAL=
+//Test CMAKE_HAVE_LIBC_PTHREAD
+CMAKE_HAVE_LIBC_PTHREAD:INTERNAL=1
 //Source directory with the top level CMakeLists.txt file for this
 // project
 CMAKE_HOME_DIRECTORY:INTERNAL=C:/Users/dimak/Desktop/pluss/project/back
@@ -410,6 +544,32 @@ CMAKE_STRIP-ADVANCED:INTERNAL=1
 CMAKE_TAPI-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
+//Details about finding Boost
+FIND_PACKAGE_MESSAGE_DETAILS_Boost:INTERNAL=[C:/Users/dimak/Desktop/pluss/project/back/lib/boost_1_85_0][c ][v1.85.0()]
+//Details about finding Python3
+FIND_PACKAGE_MESSAGE_DETAILS_Python3:INTERNAL=[C:/Users/dimak/AppData/Local/Programs/Python/Python311/python.exe][cfound components: Interpreter ][v3.11.5()]
+//Details about finding Threads
+FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
+//Last used BOOST_ROOT value.
+_BOOST_ROOT_LAST:INTERNAL=C:/Users/dimak/Desktop/pluss/project/back/lib/boost_1_85_0
+//Components requested for this build tree.
+_Boost_COMPONENTS_SEARCHED:INTERNAL=
+//Last used Boost_INCLUDE_DIR value.
+_Boost_INCLUDE_DIR_LAST:INTERNAL=C:/Users/dimak/Desktop/pluss/project/back/lib/boost_1_85_0
+//Last used Boost_NAMESPACE value.
+_Boost_NAMESPACE_LAST:INTERNAL=boost
+//Last used Boost_USE_MULTITHREADED value.
+_Boost_USE_MULTITHREADED_LAST:INTERNAL=TRUE
 //linker supports push/pop state
 _CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED:INTERNAL=TRUE
+//Compiler reason failure
+_Python3_Compiler_REASON_FAILURE:INTERNAL=
+//Development reason failure
+_Python3_Development_REASON_FAILURE:INTERNAL=
+_Python3_EXECUTABLE:INTERNAL=C:/Users/dimak/AppData/Local/Programs/Python/Python311/python.exe
+//Python3 Properties
+_Python3_INTERPRETER_PROPERTIES:INTERNAL=Python;3;11;5;64;32;;cp311-win_amd64;;C:\Users\dimak\AppData\Local\Programs\Python\Python311\Lib;C:\Users\dimak\AppData\Local\Programs\Python\Python311\Lib;C:\Users\dimak\AppData\Local\Programs\Python\Python311\Lib\site-packages;C:\Users\dimak\AppData\Local\Programs\Python\Python311\Lib\site-packages
+_Python3_INTERPRETER_SIGNATURE:INTERNAL=e2d771f593aa7b8d0765e3b66373577e
+//NumPy reason failure
+_Python3_NumPy_REASON_FAILURE:INTERNAL=
 
