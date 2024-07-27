@@ -1,2 +1,9 @@
+<<<<<<< HEAD
 back/cmake-buid-debug/
 back/.idea/
+=======
+back/cmake-buid-debug/.cmake/
+back/cmake-buid-debug/.CmakeFiles/
+back/cmake-buid-debug/Testig/
+back/.idea/
+>>>>>>> test
