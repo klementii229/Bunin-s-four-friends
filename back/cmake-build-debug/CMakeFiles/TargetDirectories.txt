@@ -1,3 +1,0 @@
-C:/Users/dimak/Desktop/pluss/project/back/cmake-build-debug/CMakeFiles/back.dir
-C:/Users/dimak/Desktop/pluss/project/back/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/dimak/Desktop/pluss/project/back/cmake-build-debug/CMakeFiles/rebuild_cache.dir
