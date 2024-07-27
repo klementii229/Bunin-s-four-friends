@@ -1,8 +1,0 @@
-19:15:09.364788936 [19032] main.cpp:22                  LOG_INFO      root         Welcome to Quill!
-19:15:09.364879705 [19032] main.cpp:23                  LOG_ERROR     root         An error message. error code 123
-19:15:09.364880086 [19032] main.cpp:24                  LOG_WARNING   root         A warning message.
-19:15:09.364880307 [19032] main.cpp:25                  LOG_CRITICAL  root         A critical error.
-19:15:09.364880517 [19032] main.cpp:26                  LOG_DEBUG     root         Debugging foo 1234
-19:15:09.364880687 [19032] main.cpp:27                  LOG_TRACE_L1  root                          right aligned
-19:15:09.364881409 [19032] main.cpp:28                  LOG_TRACE_L2  root         Positional arguments are supported too 
-19:15:09.364881829 [19032] main.cpp:29                  LOG_TRACE_L3  root         Support for floats 1.23
